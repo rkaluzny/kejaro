@@ -12,6 +12,8 @@ body {
     margin: 0;
     padding: 0;
     color: white;
+    font-family: 'Inter';
+    font-size: 20px;
 }
 
 button {
@@ -47,6 +49,10 @@ header, section {
 
 h1, h2 {
     font-family: 'Aldrich', sans-serif;
+}
+
+h2, p {
+    margin: 0;
 }
 
 /* Header */
@@ -109,6 +115,10 @@ h1 + p {
     margin: 0;
 }
 
+h2 {
+    font-size: 36px;
+}
+
 .globus {
     width: 330px;
     height: 330px;
@@ -118,19 +128,37 @@ h1 + p {
 
 .service {
     background-color: rgb(58, 171, 236);
-}
-
-.service .row {
-    margin-bottom: 36px;
+    height: 820px;
+    padding: auto 0;
 }
 
 .service img {
-    width: 382px;
-    height: 302px;
+    width: 330px;
+    height: 250px;
+    margin-right: 90px;
+}
+
+.service .row:first-child {
+    margin-bottom: 45px;
 }
 
 .service button:hover {
     background-color: rgb(0, 221, 0);
+}
+
+.service .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.service .row .column:nth-child(2) {
+    width: 350px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* About */
