@@ -175,8 +175,12 @@ h2 {
 
 .about img {
     width: 190px;
+<<<<<<< HEAD
     height: 190px;
     border-radius: 5px;
+=======
+    height: auto;
+>>>>>>> ae2599b2e594a52a26565c98105f24f73ccd992d
 }
 
 .about .row {
