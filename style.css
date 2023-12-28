@@ -28,6 +28,10 @@ button {
     padding: 6px 10px;
 }
 
+button:hover {
+    background-color: rgb(0, 221, 0);
+}
+
 header, section {
     padding: 106px 0; 
 }
@@ -71,6 +75,7 @@ header {
     height: 118px;
     height: auto;
     cursor: pointer;
+    user-select: none;
 }
 
 nav {
@@ -110,6 +115,7 @@ header .wrapper {
 h1 {
     font-size: 110px;
     margin: 0;
+    user-select: none;
 }
 
 h1 + p {
@@ -117,6 +123,7 @@ h1 + p {
     opacity: 70%;
     font-size: 40px;
     margin: 0;
+    user-select: none;
 }
 
 h2 {
@@ -124,8 +131,9 @@ h2 {
 }
 
 .globus {
-    width: 330px;
-    height: 330px;
+    width: 290px;
+    height: 290px;
+    margin-left: 190px;
 }
 
 /* Service */
@@ -140,7 +148,6 @@ h2 {
     width: 330px;
     height: 250px;
     margin-right: 90px;
-    border-radius: 5px;
 }
 
 .service .row:first-child {
@@ -175,12 +182,9 @@ h2 {
 
 .about img {
     width: 190px;
-<<<<<<< HEAD
     height: 190px;
     border-radius: 5px;
-=======
-    height: auto;
->>>>>>> ae2599b2e594a52a26565c98105f24f73ccd992d
+    overflow: hidden;
 }
 
 .about .row {
@@ -194,6 +198,10 @@ h2 {
 
 .about_text {
     font-size: 14px;
+}
+
+.about_btn {
+    margin-top: 20px;
 }
 
 /* Contact */
