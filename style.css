@@ -67,6 +67,7 @@ h2, p {
 
 header {
     background-image: url('img/background.jpg');
+    background-attachment: fixed;
     height: 680px;
 }
 
@@ -207,6 +208,7 @@ h2 {
 /* Contact */
 .contact {
     background-image: url("img/background.jpg");
+    background-attachment: fixed;
 }
 
 .contact .container {
