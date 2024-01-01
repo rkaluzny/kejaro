@@ -109,7 +109,7 @@ button:hover {
 /* Header */
 
 header {
-    background-image: url('img/background.jpg');
+    background-image: url('../img/background.jpg');
     background-attachment: fixed;
     height: 680px;
 }
@@ -226,7 +226,7 @@ h1 + p {
 /* Contact */
 
 .contact {
-    background-image: url("img/background.jpg");
+    background-image: url("../img/background.jpg");
     background-attachment: fixed;
     background-position: 0% 270%;
 }
