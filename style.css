@@ -209,6 +209,7 @@ h2 {
 .contact {
     background-image: url("img/background.jpg");
     background-attachment: fixed;
+    background-position: 0% 270%;
 }
 
 .contact .container {
