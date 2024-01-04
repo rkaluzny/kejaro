@@ -122,19 +122,24 @@ nav {
 
 nav ul {
     margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 45px;
+}
+
+nav ul li:last-of-type {
+    padding-right: 0;
 }
 
 nav ul a {
-    padding-right: 45px;
     text-decoration: none;
     cursor: pointer;
     color: white;
     font-family: 'Inter';
     font-size: 20px;
-}
-
-nav ul a:last-of-type {
-    padding-right: 0;
 }
 
 nav ul a:hover {
