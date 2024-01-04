@@ -141,6 +141,16 @@ nav ul a:hover {
     text-decoration: underline;
 }
 
+nav ul img {
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -o-filter: invert(100%);
+    -ms-filter: invert(100%);
+    transform: translateY(8px);
+    width: 30px;
+    height: 30px;
+}
+
 header .wrapper {
     flex-direction: column;
     justify-content: center;
@@ -218,8 +228,8 @@ h1 + p {
 }
 
 .about img {
-    width: 190px;
-    height: 190px;
+    width: 250px;
+    height: 250px;
     border-radius: 5px;
     overflow: hidden;
 }
