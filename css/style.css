@@ -83,7 +83,7 @@ h2 {
 }
 
 button {
-    width: 140px;
+    width: 190px;
     height: 35px;
     background-color: #30A13F;
     font-family: 'Inter';
@@ -273,7 +273,7 @@ h1 + p {
 }
 
 .contact button {
-    width: 260px;
+    width: 350px;
     height: 60px;
     font-size: 30px;
 }
