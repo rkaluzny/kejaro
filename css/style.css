@@ -98,6 +98,7 @@ button:hover {
     background-color: rgb(0, 221, 0);
 }
 
+<<<<<<< HEAD
 input {
     margin: 30px;
     width: 30%;
@@ -109,6 +110,8 @@ label {
     justify-content: center;
 }
 
+=======
+>>>>>>> refs/remotes/origin/main
 /* Header */
 
 header {
@@ -289,6 +292,7 @@ h1 + p {
     font-size: 30px;
 }
 
+<<<<<<< HEAD
 #contact {
     background-color: #2B3C5B;
     background-attachment: fixed;
@@ -301,6 +305,8 @@ h1 + p {
     font-family: 'Aldrich', sans-serif;
 }
 
+=======
+>>>>>>> refs/remotes/origin/main
 /* Media */
 
 @media (max-width: 800px) {
