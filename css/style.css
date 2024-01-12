@@ -22,6 +22,11 @@ body {
     padding: 0 20px;
 }
 
+section {
+    background-color: rgb(58, 171, 236);
+    padding: 70px 0;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -58,6 +63,7 @@ h1, h2 {
 
 h2 {
     font-size: 36px;
+    margin-top: 0;
 }
 
 button {
@@ -214,6 +220,74 @@ h1 + p {
 }
 
 /* Contact */
+.contact {
+    background: #0097e6;
+  }
+  
+  .contact .section-title {
+    color: #ffffff;
+  }
+  
+  form {
+    flex: 2 0 0;
+    padding-right: 96px;
+  }
+  
+  .contact-details {
+    flex: 1 0 0;
+  }
+  
+  input, textarea {
+    display: block;
+    background: #0097e6;
+    border: none;
+    border-bottom: 4px solid #ffffff;
+    padding: 10px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #ffffff;
+    font-family: "Inconsolata", monospace;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #ffffff;
+    font-family: "Inconsolata", monospace;
+  }
+  
+  textarea {
+    height: 120px;
+  }
+  
+  .contact h3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+  }
+  
+  .contact h3:first-of-type {
+    margin: 0;
+  }
+  
+  .contact p {
+    color: #ffffff;
+  }
+  
+  .contact button {
+    font-family: "Inconsolata", monospace;
+    font-size: 16px;
+  }
+
+  .contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  } 
+
+/* Contact */
 
 .contact {
     background-image: url("../img/background.jpg");
@@ -298,6 +372,10 @@ h1 + p {
 
     .contact button {
         font-size: 25px;
+    }
+
+    p {
+        width: 300px;
     }
 }
 
