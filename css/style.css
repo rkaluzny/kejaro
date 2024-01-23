@@ -17,15 +17,14 @@ body {
     font-family: 'Inter';
 }
 
+section, header {
+    padding: 60px 0;
+}
+
 .container {
     max-width: 860px;
     margin: 0 auto;
     padding: 0 20px;
-}
-
-section {
-    background-color: rgb(58, 171, 236);
-    padding: 50px 0;
 }
 
 .row {
@@ -90,7 +89,6 @@ button:hover {
 header {
     background-image: url('../img/background.jpg');
     background-attachment: fixed;
-    padding: 100px 0;
 }
 
 nav {
