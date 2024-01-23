@@ -79,8 +79,7 @@ h3 {
 }
 
 button {
-    width: 100%;
-    max-width: 190px;
+    width: 170px;
     height: 35px;
     background-color: #30A13F;
     font-family: 'Inter';
@@ -88,11 +87,11 @@ button {
     color: white;
     cursor: pointer;
     border: none;
-    padding: 6px 10px;
+    transition: all 1s;
 }
 
 button:hover {
-    background-color: rgb(0, 221, 0);
+    background-color: #1f6929;
 }
 
 /* Header */
