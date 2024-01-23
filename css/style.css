@@ -57,14 +57,25 @@ section, header {
     height: 100%;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Aldrich', sans-serif;
     font-weight: 500;
+    text-align: start;
+}
+
+h1 {
+    font-size: 110px;
+    margin: 0;
+    user-select: none;
 }
 
 h2 {
+    font-size: 45px;
+}
+
+h3 {
     font-size: 36px;
-    margin-top: 0;
+    margin: 0;
 }
 
 button {
@@ -147,12 +158,6 @@ nav ul img {
     flex-direction: column;
     justify-content: center;
     height: 100%;
-}
-
-h1 {
-    font-size: 110px;
-    margin: 0;
-    user-select: none;
 }
 
 h1 + p {
