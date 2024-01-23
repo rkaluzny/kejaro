@@ -10,6 +10,7 @@ html {
 
 body {
     margin: 0;
+    text-align: justify;
     padding: 0;
     color: white;
     font-family: 'Inter';
@@ -200,10 +201,6 @@ h1 + p {
     margin-right: 0;
 }
 
-.service p {
-    text-align: justify;
-}
-
 /* About */
 
 .about {
@@ -217,10 +214,6 @@ h1 + p {
     height: auto;
     border-radius: 5px;
     overflow: hidden;
-}
-
-.about p {
-    text-align: justify;
 }
     
 /* Contact */
