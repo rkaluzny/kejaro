@@ -11,10 +11,10 @@ html {
 body {
     margin: 0;
     text-align: justify;
-    padding: 0;
+    background-color: rgb(58, 171, 236);
     color: white;
-    font-family: 'Inter';
     font-size: 16px;
+    font-family: 'Inter';
 }
 
 .container {
