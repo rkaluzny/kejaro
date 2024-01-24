@@ -46,6 +46,10 @@ header {
     margin-bottom: 0;
 }
 
+.row > * {
+    position: relative;
+}
+
 .col-1 {
     flex: 1;
 }
@@ -262,6 +266,11 @@ h1+p {
     height: auto;
     border-radius: 5px;
     overflow: hidden;
+}
+
+.about button {
+    position: absolute;
+    bottom: 0;
 }
 
 /* Contact */
