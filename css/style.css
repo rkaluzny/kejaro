@@ -38,7 +38,7 @@ header {
     margin-right: 60px;
 }
 
-.row:first-of-type {
+.row {
     margin-bottom: 40px;
 }
 
@@ -107,7 +107,8 @@ header {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Aldrich', sans-serif;
     font-weight: 500;
     text-align: start;
@@ -126,13 +127,17 @@ h2 {
 
 h3 {
     font-size: 36px;
-    margin: 0;
+}
+
+h4 {
+    font-weight: 600;
 }
 
 button {
     width: 170px;
     height: 35px;
     background-color: #30A13F;
+    color: white;
     font-family: 'Inter';
     font-size: 20px;
     cursor: pointer;
@@ -258,6 +263,10 @@ h1+p {
     margin-right: 0;
 }
 
+.service h3 {
+    margin-top: 0;
+}
+
 /* About */
 
 .about {
@@ -279,13 +288,6 @@ h1+p {
 }
 
 /* Contact */
-.contact {
-    background: #0097e6;
-}
-
-.contact .section-title {
-    color: #ffffff;
-}
 
 form {
     flex: 2 0 0;
@@ -324,23 +326,18 @@ textarea {
     height: 120px;
 }
 
-.contact h3 {
+.contact h4 {
     color: #ffffff;
     font-size: 20px;
     margin: 20px 0 0 0;
 }
 
-.contact h3:first-of-type {
+.contact h4:first-of-type {
     margin: 0;
 }
 
 .contact p {
     color: #ffffff;
-}
-
-.contact button {
-    font-family: "Inconsolata", monospace;
-    font-size: 16px;
 }
 
 .contact-wrapper {
