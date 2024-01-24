@@ -120,7 +120,8 @@ h1 {
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 60px;
+    margin-top: 0;
 }
 
 h3 {
@@ -344,33 +345,27 @@ textarea {
     justify-content: space-between;
 }
 
-/* Contact */
+/* Join */
 
-.contact {
+.join {
     background-image: url("../img/background.jpg");
     background-attachment: fixed;
     background-position: 0% 313%;
 }
 
-.contact p:first-child {
+.join p:first-child {
     font-size: 32px;
     margin: 0 0 18px 0;
 }
 
-.contact p:nth-child(2) {
-    font-size: 45px;
-    font-family: 'Aldrich', sans-serif;
-    margin: 0 0 40px 0;
-}
-
-.contact button {
-    width: 100%;
-    max-width: 400px;
+.join button {
+    width: auto;
     height: 60px;
     font-size: 30px;
+    padding: 0 50px;
 }
 
-.contact .container {
+.join .container {
     display: flex;
     flex-direction: column;
     align-items: center;
