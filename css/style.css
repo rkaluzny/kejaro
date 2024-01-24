@@ -135,10 +135,14 @@ button {
     background-color: #30A13F;
     font-family: 'Inter';
     font-size: 20px;
-    color: white;
     cursor: pointer;
     border: none;
     transition: all 1s;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
 }
 
 button:hover {
